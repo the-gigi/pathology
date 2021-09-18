@@ -9,7 +9,7 @@ seems better to stick it on top of pathlib's Path.
 It's a drop-in replacement to pathlib's Path:
 
 ```
-from pathology import Path
+from pathology.path import Path
 
 print('The script dir is:', Path.script_dir())
 
